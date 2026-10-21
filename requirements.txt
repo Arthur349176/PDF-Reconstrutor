@@ -1,0 +1,12 @@
+# Dependências de execução (MVP)
+pymupdf>=1.24
+python-docx>=1.1
+Pillow>=10.0
+numpy>=1.24
+scikit-image>=0.22
+
+# Interface gráfica
+PySide6>=6.6
+
+# Opcional: renderizar DOCX -> PDF usando o Microsoft Word (somente Windows com Word instalado)
+# docx2pdf>=0.1.8
