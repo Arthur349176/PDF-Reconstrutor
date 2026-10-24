@@ -1,0 +1,41 @@
+# Ambientes virtuais
+.venv/
+venv/
+env/
+
+# Cache do Python e de testes
+__pycache__/
+*.pyc
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Build do PyInstaller (o arquivo pdf_studio.spec DEVE ser versionado)
+build/
+dist/
+
+# Dados gerados pelo programa (podem conter dados pessoais)
+input/
+output/
+reports/
+temp/
+logs/
+data/
+*.log
+selftest.log
+
+# Documentos gerados pelos testes (regerados por make_samples.py)
+tests/samples/*.pdf
+tests/samples/*.docx
+
+# Configurações locais e segredos
+.env
+.env.*
+*.local.json
+
+# Sistema operacional e editores
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
